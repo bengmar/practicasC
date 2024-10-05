@@ -157,8 +157,8 @@ void menu(tGrafoPonderado * pGrafo) {
 				break;
 			}
 			default: {
-			 		printf("\nOpcion no valida. Reintente");
-					break;
+			 	printf("\nOpcion no valida. Reintente");
+				break;
 			}
 			
 		}
