@@ -40,6 +40,14 @@ void menu(tLista* pLista) {
 					visualizarLista(pLista);
 					break;
 				}
+				case 0: {
+					printf("\nSaliendo...");
+					break;
+				}
+				default:{
+					printf("\nOpcion no valida. Reintentar!\n");
+					break;
+				}
 		}
 	} while(opcion != 0);
 }
