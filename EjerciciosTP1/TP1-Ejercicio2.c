@@ -9,7 +9,7 @@ apuntIndice apuntI;
 
 
 int main(void) {
-	/*2.a: Devuelve 0 ya que el apuntador no "apunta" a alguna dirección de memoria válida.
+	/*2.a: Devuelve 0 ya que el apuntador no "apunta" a alguna direcciï¿½n de memoria vï¿½lida.
 	Es buena practica en ese caso inicializar el apuntador en NULL.*/
     printf("contenido apuntI: %p\n", apuntI);   
     apuntI = NULL;
@@ -27,6 +27,7 @@ int main(void) {
     return 0;
 }
 
-/* 2.b: apuntI contiene la dirección de memoria que ya se ha asignado con el tamaño en bytes reservado correspondiente al tipo int.
-*apuntI contiene lo que está almacenada en la dirección de memoria a la que apunta. Al inicio contiene un dato aleatorio. Luego
-guardamos en esa dirección el dato de tipo entero 2*/
+/* 2.b: apuntI contiene la direcciï¿½n de memoria que ya se ha asignado con el tamaï¿½o en bytes reservado correspondiente al tipo int.
+apuntI contiene lo que estï¿½ almacenada en la direcciï¿½n de memoria a la que apunta. Al inicio contiene un dato aleatorio. Luego
+guardamos en esa direcciï¿½n el dato de tipo entero 2*/
+//Prueba para subir a git
